@@ -50,7 +50,7 @@ img {
 }
 .nav-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
 }
 .contacts-container {
   align-items: flex-end;
@@ -60,8 +60,9 @@ img {
   align-items: center;
   gap: 40px;
 }
-.list-nav {
-  padding: 24px 0;
+.address-list {
+  display: flex;
+  gap: 40px;
 }
 header {
   border-bottom: 1px solid #e7e9fc;
@@ -91,6 +92,7 @@ header {
 }
 .nav-link {
   color: #2e2f42;
+  padding: 24px 0;
 }
 .contacts {
   font-style: normal;
