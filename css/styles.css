@@ -43,7 +43,7 @@ img {
 
 /* HEADER */
 
-header {
+.page-header {
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header .container {
@@ -65,7 +65,6 @@ header {
 }
 .address-list {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
