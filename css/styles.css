@@ -49,6 +49,7 @@ img {
   align-items: center;
 }
 .nav-container {
+  display: flex;
   align-items: flex-start;
 }
 .contacts-container {
@@ -58,10 +59,10 @@ img {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
-
+.list-nav {
+  padding: 24px 0;
+}
 header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -208,6 +209,8 @@ header {
 }
 .team-card {
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* SECTION 4 PORTFOLIO */
@@ -224,17 +227,20 @@ header {
   column-gap: 24px;
   row-gap: 48px;
 }
+.portfolio {
+  width: calc((100% - 48px) / 3);
+}
 
 /* FOOTER */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .paragraph-footer {
   color: #f4f4fd;
   width: 264px;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .logo-footer {
   color: #f4f4fd;
