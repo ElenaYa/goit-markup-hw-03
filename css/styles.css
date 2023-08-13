@@ -43,11 +43,13 @@ img {
 
 /* HEADER */
 
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .page-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .nav-container {
   display: flex;
