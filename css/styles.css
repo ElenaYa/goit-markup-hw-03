@@ -47,6 +47,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
 }
 .nav-container {
   display: flex;
@@ -55,16 +56,15 @@ img {
 
 .list-link {
   display: flex;
-  align-items: center;
   gap: 40px;
+}
+.list-nav {
+  padding: 24px 0;
 }
 .address-list {
   display: flex;
   align-items: center;
   gap: 40px;
-}
-header {
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .logo {
