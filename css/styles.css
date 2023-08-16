@@ -29,7 +29,9 @@ ul {
 }
 img {
   display: block;
+  width: 100%;
 }
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
